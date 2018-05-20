@@ -1,0 +1,13 @@
+.event {
+	width: 350px;
+	margin: 13px auto;
+	border: 3px solid #79879c;
+}
+
+.event .contenders {
+	margin-top: 27px;
+	margin-bottom: 27px;
+	text-align: center;
+	font-weight: bold;
+	color: #404a55;
+}

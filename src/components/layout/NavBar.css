@@ -1,0 +1,38 @@
+.navbar {
+	width: 375px;
+    height: 56px;
+	position: absolute;
+	top:0;
+	border-bottom: 4px solid #5C5C5C;
+}
+
+.navbar-icon {
+	position: absolute;
+	right:15px;
+	padding-top: 13px;
+	cursor: pointer;
+	z-index:1;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #5C5C5C;
+    margin-top: 0px;
+	margin-bottom: 6px;
+	transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2  {
+	opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}

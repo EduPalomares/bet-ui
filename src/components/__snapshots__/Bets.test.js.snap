@@ -1,0 +1,783 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Bets />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <div
+        className="bets"
+>
+        <div
+                className="inner"
+        >
+                <NavBar />
+                <BetSlip />
+                <Event
+                        event={
+                                Object {
+                                        "id": "EVT_1",
+                                        "markets": Array [
+                                          Object {
+                                            "id": "MKT_1",
+                                            "name": "Team to Win",
+                                            "selections": Array [
+                                              Object {
+                                                "id": "SEL_1",
+                                                "name": "Real Madrid",
+                                                "price": 1.23,
+                                              },
+                                              Object {
+                                                "id": "SEL_2",
+                                                "name": "Barcelona",
+                                                "price": 2.05,
+                                              },
+                                            ],
+                                          },
+                                          Object {
+                                            "id": "MKT_2",
+                                            "name": "Player to Score First",
+                                            "selections": Array [
+                                              Object {
+                                                "id": "SEL_3",
+                                                "name": "Ronaldo",
+                                                "price": 1.15,
+                                              },
+                                              Object {
+                                                "id": "SEL_4",
+                                                "name": "Messi",
+                                                "price": 1.3,
+                                              },
+                                              Object {
+                                                "id": "SEL_5",
+                                                "name": "Bale",
+                                                "price": 1.35,
+                                              },
+                                            ],
+                                          },
+                                        ],
+                                        "name": "Real Madrid vs Barcelona",
+                                      }
+                        }
+                />
+                <Event
+                        event={
+                                Object {
+                                        "id": "EVT_2",
+                                        "markets": Array [
+                                          Object {
+                                            "id": "MKT_3",
+                                            "name": "Team to Win",
+                                            "selections": Array [
+                                              Object {
+                                                "id": "SEL_6",
+                                                "name": "Atletico",
+                                                "price": 1.4,
+                                              },
+                                              Object {
+                                                "id": "SEL_7",
+                                                "name": "Malaga",
+                                                "price": 3.05,
+                                              },
+                                            ],
+                                          },
+                                        ],
+                                        "name": "Atletico Madrid vs Malaga",
+                                      }
+                        }
+                />
+                
+        </div>
+</div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="inner"
+>
+          <NavBar />
+          <BetSlip />
+          <Event
+                    event={
+                              Object {
+                                        "id": "EVT_1",
+                                        "markets": Array [
+                                          Object {
+                                            "id": "MKT_1",
+                                            "name": "Team to Win",
+                                            "selections": Array [
+                                              Object {
+                                                "id": "SEL_1",
+                                                "name": "Real Madrid",
+                                                "price": 1.23,
+                                              },
+                                              Object {
+                                                "id": "SEL_2",
+                                                "name": "Barcelona",
+                                                "price": 2.05,
+                                              },
+                                            ],
+                                          },
+                                          Object {
+                                            "id": "MKT_2",
+                                            "name": "Player to Score First",
+                                            "selections": Array [
+                                              Object {
+                                                "id": "SEL_3",
+                                                "name": "Ronaldo",
+                                                "price": 1.15,
+                                              },
+                                              Object {
+                                                "id": "SEL_4",
+                                                "name": "Messi",
+                                                "price": 1.3,
+                                              },
+                                              Object {
+                                                "id": "SEL_5",
+                                                "name": "Bale",
+                                                "price": 1.35,
+                                              },
+                                            ],
+                                          },
+                                        ],
+                                        "name": "Real Madrid vs Barcelona",
+                                      }
+                    }
+          />
+          <Event
+                    event={
+                              Object {
+                                        "id": "EVT_2",
+                                        "markets": Array [
+                                          Object {
+                                            "id": "MKT_3",
+                                            "name": "Team to Win",
+                                            "selections": Array [
+                                              Object {
+                                                "id": "SEL_6",
+                                                "name": "Atletico",
+                                                "price": 1.4,
+                                              },
+                                              Object {
+                                                "id": "SEL_7",
+                                                "name": "Malaga",
+                                                "price": 3.05,
+                                              },
+                                            ],
+                                          },
+                                        ],
+                                        "name": "Atletico Madrid vs Malaga",
+                                      }
+                    }
+          />
+          
+</div>,
+        "className": "bets",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <NavBar />,
+            <BetSlip />,
+            Array [
+              <Event
+                event={
+                                Object {
+                                                "id": "EVT_1",
+                                                "markets": Array [
+                                                  Object {
+                                                    "id": "MKT_1",
+                                                    "name": "Team to Win",
+                                                    "selections": Array [
+                                                      Object {
+                                                        "id": "SEL_1",
+                                                        "name": "Real Madrid",
+                                                        "price": 1.23,
+                                                      },
+                                                      Object {
+                                                        "id": "SEL_2",
+                                                        "name": "Barcelona",
+                                                        "price": 2.05,
+                                                      },
+                                                    ],
+                                                  },
+                                                  Object {
+                                                    "id": "MKT_2",
+                                                    "name": "Player to Score First",
+                                                    "selections": Array [
+                                                      Object {
+                                                        "id": "SEL_3",
+                                                        "name": "Ronaldo",
+                                                        "price": 1.15,
+                                                      },
+                                                      Object {
+                                                        "id": "SEL_4",
+                                                        "name": "Messi",
+                                                        "price": 1.3,
+                                                      },
+                                                      Object {
+                                                        "id": "SEL_5",
+                                                        "name": "Bale",
+                                                        "price": 1.35,
+                                                      },
+                                                    ],
+                                                  },
+                                                ],
+                                                "name": "Real Madrid vs Barcelona",
+                                              }
+                }
+/>,
+              <Event
+                event={
+                                Object {
+                                                "id": "EVT_2",
+                                                "markets": Array [
+                                                  Object {
+                                                    "id": "MKT_3",
+                                                    "name": "Team to Win",
+                                                    "selections": Array [
+                                                      Object {
+                                                        "id": "SEL_6",
+                                                        "name": "Atletico",
+                                                        "price": 1.4,
+                                                      },
+                                                      Object {
+                                                        "id": "SEL_7",
+                                                        "name": "Malaga",
+                                                        "price": 3.05,
+                                                      },
+                                                    ],
+                                                  },
+                                                ],
+                                                "name": "Atletico Madrid vs Malaga",
+                                              }
+                }
+/>,
+              "",
+            ],
+          ],
+          "className": "inner",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "EVT_1",
+            "nodeType": "class",
+            "props": Object {
+              "event": Object {
+                "id": "EVT_1",
+                "markets": Array [
+                  Object {
+                    "id": "MKT_1",
+                    "name": "Team to Win",
+                    "selections": Array [
+                      Object {
+                        "id": "SEL_1",
+                        "name": "Real Madrid",
+                        "price": 1.23,
+                      },
+                      Object {
+                        "id": "SEL_2",
+                        "name": "Barcelona",
+                        "price": 2.05,
+                      },
+                    ],
+                  },
+                  Object {
+                    "id": "MKT_2",
+                    "name": "Player to Score First",
+                    "selections": Array [
+                      Object {
+                        "id": "SEL_3",
+                        "name": "Ronaldo",
+                        "price": 1.15,
+                      },
+                      Object {
+                        "id": "SEL_4",
+                        "name": "Messi",
+                        "price": 1.3,
+                      },
+                      Object {
+                        "id": "SEL_5",
+                        "name": "Bale",
+                        "price": 1.35,
+                      },
+                    ],
+                  },
+                ],
+                "name": "Real Madrid vs Barcelona",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "EVT_2",
+            "nodeType": "class",
+            "props": Object {
+              "event": Object {
+                "id": "EVT_2",
+                "markets": Array [
+                  Object {
+                    "id": "MKT_3",
+                    "name": "Team to Win",
+                    "selections": Array [
+                      Object {
+                        "id": "SEL_6",
+                        "name": "Atletico",
+                        "price": 1.4,
+                      },
+                      Object {
+                        "id": "SEL_7",
+                        "name": "Malaga",
+                        "price": 3.05,
+                      },
+                    ],
+                  },
+                ],
+                "name": "Atletico Madrid vs Malaga",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "",
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <div
+          className="bets"
+>
+          <div
+                    className="inner"
+          >
+                    <NavBar />
+                    <BetSlip />
+                    <Event
+                              event={
+                                        Object {
+                                                  "id": "EVT_1",
+                                                  "markets": Array [
+                                                    Object {
+                                                      "id": "MKT_1",
+                                                      "name": "Team to Win",
+                                                      "selections": Array [
+                                                        Object {
+                                                          "id": "SEL_1",
+                                                          "name": "Real Madrid",
+                                                          "price": 1.23,
+                                                        },
+                                                        Object {
+                                                          "id": "SEL_2",
+                                                          "name": "Barcelona",
+                                                          "price": 2.05,
+                                                        },
+                                                      ],
+                                                    },
+                                                    Object {
+                                                      "id": "MKT_2",
+                                                      "name": "Player to Score First",
+                                                      "selections": Array [
+                                                        Object {
+                                                          "id": "SEL_3",
+                                                          "name": "Ronaldo",
+                                                          "price": 1.15,
+                                                        },
+                                                        Object {
+                                                          "id": "SEL_4",
+                                                          "name": "Messi",
+                                                          "price": 1.3,
+                                                        },
+                                                        Object {
+                                                          "id": "SEL_5",
+                                                          "name": "Bale",
+                                                          "price": 1.35,
+                                                        },
+                                                      ],
+                                                    },
+                                                  ],
+                                                  "name": "Real Madrid vs Barcelona",
+                                                }
+                              }
+                    />
+                    <Event
+                              event={
+                                        Object {
+                                                  "id": "EVT_2",
+                                                  "markets": Array [
+                                                    Object {
+                                                      "id": "MKT_3",
+                                                      "name": "Team to Win",
+                                                      "selections": Array [
+                                                        Object {
+                                                          "id": "SEL_6",
+                                                          "name": "Atletico",
+                                                          "price": 1.4,
+                                                        },
+                                                        Object {
+                                                          "id": "SEL_7",
+                                                          "name": "Malaga",
+                                                          "price": 3.05,
+                                                        },
+                                                      ],
+                                                    },
+                                                  ],
+                                                  "name": "Atletico Madrid vs Malaga",
+                                                }
+                              }
+                    />
+                    
+          </div>
+</div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="inner"
+>
+            <NavBar />
+            <BetSlip />
+            <Event
+                        event={
+                                    Object {
+                                                "id": "EVT_1",
+                                                "markets": Array [
+                                                  Object {
+                                                    "id": "MKT_1",
+                                                    "name": "Team to Win",
+                                                    "selections": Array [
+                                                      Object {
+                                                        "id": "SEL_1",
+                                                        "name": "Real Madrid",
+                                                        "price": 1.23,
+                                                      },
+                                                      Object {
+                                                        "id": "SEL_2",
+                                                        "name": "Barcelona",
+                                                        "price": 2.05,
+                                                      },
+                                                    ],
+                                                  },
+                                                  Object {
+                                                    "id": "MKT_2",
+                                                    "name": "Player to Score First",
+                                                    "selections": Array [
+                                                      Object {
+                                                        "id": "SEL_3",
+                                                        "name": "Ronaldo",
+                                                        "price": 1.15,
+                                                      },
+                                                      Object {
+                                                        "id": "SEL_4",
+                                                        "name": "Messi",
+                                                        "price": 1.3,
+                                                      },
+                                                      Object {
+                                                        "id": "SEL_5",
+                                                        "name": "Bale",
+                                                        "price": 1.35,
+                                                      },
+                                                    ],
+                                                  },
+                                                ],
+                                                "name": "Real Madrid vs Barcelona",
+                                              }
+                        }
+            />
+            <Event
+                        event={
+                                    Object {
+                                                "id": "EVT_2",
+                                                "markets": Array [
+                                                  Object {
+                                                    "id": "MKT_3",
+                                                    "name": "Team to Win",
+                                                    "selections": Array [
+                                                      Object {
+                                                        "id": "SEL_6",
+                                                        "name": "Atletico",
+                                                        "price": 1.4,
+                                                      },
+                                                      Object {
+                                                        "id": "SEL_7",
+                                                        "name": "Malaga",
+                                                        "price": 3.05,
+                                                      },
+                                                    ],
+                                                  },
+                                                ],
+                                                "name": "Atletico Madrid vs Malaga",
+                                              }
+                        }
+            />
+            
+</div>,
+          "className": "bets",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <NavBar />,
+              <BetSlip />,
+              Array [
+                <Event
+                  event={
+                                    Object {
+                                                      "id": "EVT_1",
+                                                      "markets": Array [
+                                                        Object {
+                                                          "id": "MKT_1",
+                                                          "name": "Team to Win",
+                                                          "selections": Array [
+                                                            Object {
+                                                              "id": "SEL_1",
+                                                              "name": "Real Madrid",
+                                                              "price": 1.23,
+                                                            },
+                                                            Object {
+                                                              "id": "SEL_2",
+                                                              "name": "Barcelona",
+                                                              "price": 2.05,
+                                                            },
+                                                          ],
+                                                        },
+                                                        Object {
+                                                          "id": "MKT_2",
+                                                          "name": "Player to Score First",
+                                                          "selections": Array [
+                                                            Object {
+                                                              "id": "SEL_3",
+                                                              "name": "Ronaldo",
+                                                              "price": 1.15,
+                                                            },
+                                                            Object {
+                                                              "id": "SEL_4",
+                                                              "name": "Messi",
+                                                              "price": 1.3,
+                                                            },
+                                                            Object {
+                                                              "id": "SEL_5",
+                                                              "name": "Bale",
+                                                              "price": 1.35,
+                                                            },
+                                                          ],
+                                                        },
+                                                      ],
+                                                      "name": "Real Madrid vs Barcelona",
+                                                    }
+                  }
+/>,
+                <Event
+                  event={
+                                    Object {
+                                                      "id": "EVT_2",
+                                                      "markets": Array [
+                                                        Object {
+                                                          "id": "MKT_3",
+                                                          "name": "Team to Win",
+                                                          "selections": Array [
+                                                            Object {
+                                                              "id": "SEL_6",
+                                                              "name": "Atletico",
+                                                              "price": 1.4,
+                                                            },
+                                                            Object {
+                                                              "id": "SEL_7",
+                                                              "name": "Malaga",
+                                                              "price": 3.05,
+                                                            },
+                                                          ],
+                                                        },
+                                                      ],
+                                                      "name": "Atletico Madrid vs Malaga",
+                                                    }
+                  }
+/>,
+                "",
+              ],
+            ],
+            "className": "inner",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "EVT_1",
+              "nodeType": "class",
+              "props": Object {
+                "event": Object {
+                  "id": "EVT_1",
+                  "markets": Array [
+                    Object {
+                      "id": "MKT_1",
+                      "name": "Team to Win",
+                      "selections": Array [
+                        Object {
+                          "id": "SEL_1",
+                          "name": "Real Madrid",
+                          "price": 1.23,
+                        },
+                        Object {
+                          "id": "SEL_2",
+                          "name": "Barcelona",
+                          "price": 2.05,
+                        },
+                      ],
+                    },
+                    Object {
+                      "id": "MKT_2",
+                      "name": "Player to Score First",
+                      "selections": Array [
+                        Object {
+                          "id": "SEL_3",
+                          "name": "Ronaldo",
+                          "price": 1.15,
+                        },
+                        Object {
+                          "id": "SEL_4",
+                          "name": "Messi",
+                          "price": 1.3,
+                        },
+                        Object {
+                          "id": "SEL_5",
+                          "name": "Bale",
+                          "price": 1.35,
+                        },
+                      ],
+                    },
+                  ],
+                  "name": "Real Madrid vs Barcelona",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "EVT_2",
+              "nodeType": "class",
+              "props": Object {
+                "event": Object {
+                  "id": "EVT_2",
+                  "markets": Array [
+                    Object {
+                      "id": "MKT_3",
+                      "name": "Team to Win",
+                      "selections": Array [
+                        Object {
+                          "id": "SEL_6",
+                          "name": "Atletico",
+                          "price": 1.4,
+                        },
+                        Object {
+                          "id": "SEL_7",
+                          "name": "Malaga",
+                          "price": 3.05,
+                        },
+                      ],
+                    },
+                  ],
+                  "name": "Atletico Madrid vs Malaga",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "",
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

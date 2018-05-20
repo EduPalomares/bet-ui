@@ -1,0 +1,32 @@
+.market {
+	padding:15px;
+	border-top: 3px solid #79879c;
+}
+
+.market .objective {
+	color: #7f8da1;
+	margin-bottom: 10px;
+}
+
+.market .selection {
+	width:auto;
+	display: inline-block; 
+	vertical-align:top;
+	margin-right: 10px;
+	padding:10px 15px;
+	border:2px solid #79879c;
+	border-radius:10px;
+	text-align:center;
+	font-size: 11px;
+	cursor: pointer;
+	transition: all .35s;
+}
+
+.market .selection.selected {
+	background:#07b037;
+}
+
+.market .selection:hover {
+	background:#DDD;
+	transition: all .35s;
+}
