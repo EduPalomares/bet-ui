@@ -79,15 +79,15 @@ Was considered a different internal structure for data resulting in the scheme:
 Selections =
 
 [
-	selectionId:
-		{
-			eventId: string, 
-			eventName: string, 
-			marketId: string, 
-			marketName: string, 
-			selectionName: string,
-			selectionPrice: number
-		}
+  selectionId:
+    {
+	eventId: string, 
+	eventName: string, 
+	marketId: string, 
+	marketName: string, 
+	selectionName: string,
+	selectionPrice: number
+    }
 ]
 
 ```
