@@ -37,8 +37,8 @@ Tests using Jest and Enzyme.
 		┏━━━━━━━┻━━━━━━━┓
 	      Event	     BetSlip
 		┃		┃
-	      Market	  Bet
-		┃		┃	  
+	      Market	       Bet
+		┃		  
 	     Selection	       
 <br>	  
 
